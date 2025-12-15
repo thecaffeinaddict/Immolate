@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7) # 3.1 << C_STANDARD 11
 
 project(Immolate LANGUAGES C)
 
-find_package(OpenCL REQUIRED)
+find_package(OpenSSL REQUIRED)
 
 add_executable(${PROJECT_NAME} immolate.c)
 
